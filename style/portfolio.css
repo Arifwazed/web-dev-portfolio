@@ -1,0 +1,18 @@
+nav{
+    display: flex;
+}
+
+.open-sans-font1 {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+nav h3{
+    font-weight: 800;
+    font-size: 45px;
+}
+.font2{
+    color: #FD6E0A;
+}
