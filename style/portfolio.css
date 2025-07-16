@@ -203,3 +203,51 @@ footer textarea{
     font-size: 16px;
     display: block;
 }
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    .header{
+        background-image: none;
+    }
+    nav, nav > ul{
+        flex-direction: column;
+    }
+    nav > ul{
+       margin-right: 0px;
+    }
+    .banner{
+        flex-direction: column;
+        margin: 20px;
+    }
+    .banner-content-image{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-top: 400px;
+    }
+    .btn-primary{
+        margin-bottom: 20px;
+    }
+    .skill-container{
+        flex-direction: column;
+    }
+    .resume-container{
+        flex-direction: column;
+    }
+    footer,.about,.about-items{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer-description{
+        width: 100%;
+    }
+    form input{
+        width: 100%;
+    }
+    footer input[type="text"], footer input[type="email"],footer textarea{
+        width: calc(100% - 30px);
+    }
+}
